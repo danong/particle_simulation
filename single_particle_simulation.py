@@ -1,6 +1,6 @@
 """An n-Particle Simulation using Lennard-Jones potential.
 
-We simulate n (up to ~200 on my computer) particles which repel each other when close to each other and repel when far
+We simulate n (up to ~200 on my computer) particles which repel each other when close to each other and attract when far
 from each other. For each particle, we calculate the LJ force it experiences from every other particle.
 
 We sum all the force vectors to determine the overall force and use
